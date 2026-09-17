@@ -155,9 +155,12 @@ textarea{min-height:130px;resize:vertical}
 
 /* FOOTER */
 footer{background:var(--deep);padding:2rem 2.5rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
-.footer-brand{font-family:var(--display);font-size:1.2rem;letter-spacing:.06em}
+.footer-brand{font-family:var(--display);font-size:1.6rem;letter-spacing:.06em}
 .footer-brand span{color:var(--neon)}
-footer p{font-family:var(--mono);font-size:.65rem;color:#444;letter-spacing:.06em}
+footer p{font-family:var(--mono);font-size:.95rem;color:#9a938a;letter-spacing:.06em}
+.footer-links{font-family:var(--mono);font-size:.95rem;letter-spacing:.1em;text-transform:uppercase}
+.footer-links a{color:#E8E0D0;text-decoration:none;margin-left:1.4rem;border-bottom:1px solid rgba(255,58,26,0.35);padding-bottom:2px}
+.footer-links a:hover{color:var(--neon)}
 
 /* ANIMATIONS */
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
@@ -170,6 +173,7 @@ footer p{font-family:var(--mono);font-size:.65rem;color:#444;letter-spacing:.06e
   .nav-brand{font-size:1.7rem;white-space:nowrap}
   .nav-cta{font-size:.95rem;padding:.55rem .9rem;white-space:nowrap}
   .cta-date{display:none}
+  .footer-links a{margin:0 1.2rem 0 0;display:inline-block}
   .nav-links{display:none}
   .hero{padding:8rem 1.2rem 4rem;justify-content:flex-start}
   .hero-year{top:12rem;transform:translateY(0) rotate(90deg);transform-origin:center;font-size:6.5vw;right:.2rem;color:rgba(255,58,26,0.45)}
@@ -490,6 +494,7 @@ footer p{font-family:var(--mono);font-size:.65rem;color:#444;letter-spacing:.06e
 <footer>
   <div class="footer-brand">DISCO<span>THEK</span> RUSH · DON</div>
   <p>rushparty.de · Donauwörth · 1983–∞ · Organisiert von Klaus Rattenbacher</p>
+  <div class="footer-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
 </footer>
 
 <script>
